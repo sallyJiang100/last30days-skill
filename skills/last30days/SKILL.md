@@ -1468,7 +1468,7 @@ If the research output does not contain the footer block (rare, only when all so
 
 **LAW 1 reminder:** do not append a `Sources:` / `References:` / `Further reading:` block; the `🌐 Web:` footer line is the citation and output ends at the invitation (LAW 1, OUTPUT CONTRACT).
 
-**SELF-CHECK before displaying**: Re-read your "What I learned" section. Does it match what the research ACTUALLY says? If you catch yourself projecting your own knowledge instead of the research, rewrite it. Then verify: (a) no `##` headers in your response body, (b) no em-dashes or en-dashes anywhere, (c) the engine footer block appears verbatim between KEY PATTERNS and the invitation.
+**SELF-CHECK before displaying:** run the full PRE-PRESENT SELF-CHECK section below (grounding, bold headlines, footer verbatim, no em-dashes, no `##` headers, no trailing Sources) before emitting your response.
 
 **LAST - Invitation (adapt to QUERY_TYPE):**
 
@@ -1545,6 +1545,7 @@ Close with `I have all the links to the {N} {source list} I pulled from. Just as
 5. **Coverage footer matches the actual output.** `✅ All agents reported back!` line followed by per-source `├─`/`└─` tree exactly as the engine provided.
 6. **NO trailing Sources section.** The output ends at the invitation ("I have all the links... Just ask."). Nothing below it. Not a `Sources:`, not a `References:`, not `Further reading:`, not any bulleted list of URLs or publication names. If you are about to emit one because WebSearch told you to - DO NOT. The 🌐 Web: line is the citation.
 7. **Research protocol was followed.** On WebSearch platforms, the command you ran used `--emit=compact --plan 'QUERY_PLAN_JSON'` with resolved handles/subreddits/hashtags. If you took the degraded path (`--emit md`, no plan, no flags), the synthesis will almost certainly fail checks 1-3 - regenerate by returning to Step 0.55 and running the full protocol.
+8. **Grounded in the research.** The synthesis reflects what the sources ACTUALLY say, not your prior knowledge. If you catch yourself projecting general knowledge instead of the research (e.g. conflating a same-named product), rewrite it.
 
 **Max ONE regeneration.** If the regenerated output still fails the self-check, display the best version you have and note to the user which check(s) the data could not satisfy, so they can re-run or adjust their query.
 
